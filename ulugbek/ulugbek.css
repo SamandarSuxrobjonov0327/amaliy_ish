@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+padding: 0px 30px;
+    
+}
+
+.boshlanish {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.boshlanish ul {
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.box1 {
+    width: 500px;
+}
+li{
+    list-style: none;
+
+}
+.boshlanish button{
+    width: 170px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+}
+.navigition{
+    width: 100%;
+    height: 450px;
+    background-color: rgb(42, 99, 42);
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    justify-content: space-around;
+}
+.textlar{
+    width: 400px;
+    color: white;
+}
+
+.textlar h1{
+    margin-top: 10px;
+}
+
+/* likelar */
+.title{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    width: 87%;
+    margin-left: 90px;
+}
