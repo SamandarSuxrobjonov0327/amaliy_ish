@@ -218,3 +218,73 @@ nav{
     background: transparent;
 
 }
+.our{
+    width: 100%;
+    height: 500px;
+
+}
+.our h1{
+    font-size: 30px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.our .photo{
+    display: flex;
+    justify-content: space-between
+    ;
+}
+.our img{
+    width: 400px;
+    border-radius: 50%;
+    margin: 30px;
+}
+.our button{
+    margin-left: 85%;
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    background: green;
+    color: white;
+}
+
+.about{
+    width: 100%;
+    height: 700px;
+    margin-top: 250px;
+    margin-left: 20px;
+}
+.about .box1{
+    display: flex;
+    justify-content: space-between;
+
+}
+.about img{
+    width: 400px;
+    border-radius: 50%;
+}
+.about .text{
+    margin-left: 100px;
+}
+.about h1{
+    font-size: 40px;    
+    width: 700px;
+
+}
+hr{
+    background:  black;
+    color: #000;
+    border: 1px solid #000;
+    margin-top: 20px;
+}
+.box31{
+    width: 1600px;
+    height: 300px;
+    background: green;
+    margin: 0;
+    border-top-left-radius: 1000%;
+    border-top-right-radius: 1000%;
+    overflow: hidden ;
+    z-index: 0;
+    opacity: .9 ;
+}
